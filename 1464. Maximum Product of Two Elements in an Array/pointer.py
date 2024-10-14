@@ -1,3 +1,6 @@
+#同時利用max1和max2分別儲存最大值與第二大值，避免使用兩次for loop
+
+
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         max1 = max2 = 0
