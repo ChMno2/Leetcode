@@ -1,3 +1,5 @@
+#善用hash table紀錄每個數字出現的次數
+
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
         pair = {}
