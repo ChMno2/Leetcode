@@ -1,3 +1,4 @@
+#利用step的正負值來控制row的移動方向
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows ==1:
